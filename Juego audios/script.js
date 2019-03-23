@@ -25,7 +25,6 @@ $(function () {
     var linea_11 = $('#linea_7');
     var linea_12 = $('#linea_8');
     var restart_div = $('#restart_div');
-    var restart_button = $('#restart');
     var score = $('#score');
     var string = $('#string');
     
@@ -124,7 +123,7 @@ $(function () {
     
     anim_id = requestAnimationFrame(repeat);
     
-    const rollSound = new Audio("Audios/1.wav");
+    
 
     function repeat(){
      if(game_over === false){
@@ -162,6 +161,8 @@ $(function () {
     
     }
 
+
+    const rollSound = new Audio("Audios/1.wav");
     var sounds;
         function initializeSound(){
         sounds = new HTMLUnknownElement({
@@ -262,9 +263,4 @@ $(function () {
     
     });
 
-
-
-function newFunction() {
-    $('audio#pop')[1].play();
-}
 
