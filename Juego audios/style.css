@@ -1,0 +1,133 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: aquamarine;
+}
+
+
+#container{
+    position: relative;
+    height: 300px;
+    width: 70%;
+    left:15%;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    overflow: hidden;
+}
+
+
+.linea {
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background-color: rgba(0, 0, 0, 0.514);
+    filter: drop-shadow(3px 3px 3px rgba(185, 185, 185, 0.651));
+}
+#linea_1{
+    right: -85px;
+}
+#linea_2{
+    right: 50px;
+}
+#linea_3{
+    right: 185px;
+}
+
+#linea_4{
+    right: 310px;
+}
+#linea_5{
+    right: 435px;
+}
+#linea_6{
+    right: 570px;
+}
+
+#linea_7{
+    right: 695px;
+}
+#linea_8{
+    right: 830px;
+}
+
+
+
+#restart {
+    border: none;
+    padding: 25px;
+    color: white;
+    background-color: #8a64ff;
+    font-size: 30px;
+    margin-top: 30%;
+}
+.subtexto{
+    font-size: 15px;
+}
+
+
+#score_div{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 45%;
+    font-size: 35px;
+    background-color: white;
+    color: #454545;
+    padding: 10px;
+    box-shadow: 4px 4px 0px 1px #dbdada;
+}
+
+#player {
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+    background-size: contain;
+    top: 50px;
+    left: 50px;
+    filter: drop-shadow(3px 3px 3px rgb(209, 209, 209));
+ 
+}
+
+#restart {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: fuchsia;
+    color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.barra {
+    height: 30%;
+    width: 3%;
+    background: blue;
+    position: absolute;
+}
+
+#barra_1{
+    right: -150px;
+    top: 60%;
+    background-color: #26c5ff;
+}
+#barra_2{
+    right: -300px;
+    top: 40%;
+    background-color: #26c5ff;
+}
+#barra_3{
+    right: -450px;
+    top: 50%;
+    background-color: #26c5ff;
+}
+
+#barra_4{
+    right: -600px;
+    top: 50%;
+    background-color: #26c5ff;
+}
